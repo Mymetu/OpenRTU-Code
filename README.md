@@ -14,7 +14,6 @@ OpenRTU-Code 是围绕 **TinyLora 系列** 低功耗 LoRa 自组网设备整理�
 | TinyLora C3 V3 (22S/29S) | ESP32-C3 | SX1262 / SX1268 / LLCC68（自动识别） | 可选 AHT20+BMP280 传感器 |
 | TinyLora C3 V3 GPS | ESP32-C3 | SX1262 / SX1268 / LLCC68（自动识别） | 带 GPS（Serial1） |
 | TinyLora C3 V4/V5 | ESP32-C3 | SX1262 / SX1268 / LLCC68（自动识别） | LED 心跳指示 |
-| TinyLora C6 | ESP32-C6 | LoRa | WS2812 彩灯、蜂鸣器、外部看门狗、GPS |
 | TinyLora MV ZHCN | ESP32-C3 | SX1262 | GPS + 环境传感器（AHT20+BMP280） |
 
 ## 固件支持
