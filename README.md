@@ -1,6 +1,6 @@
 # OpenRTU-Code
 
-TinyLora 系列 LoRa 组网设备固件与资源仓库。
+TinyLora 系列 LoRa 系列开发板固件与资源仓库。
 
 ## 项目简介
 
