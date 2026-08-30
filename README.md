@@ -20,3 +20,13 @@ OpenRTU 项目固件与资源仓库。
 
 - [MeshCore-TinyLora](https://github.com/Mymetu/MeshCore-TinyLora)
 - [mv-game-meshtastic](https://github.com/Mymetu/mv-game-meshtastic)
+
+## 固件烧录方法
+
+1. Chrome / Edge 浏览器打开 `https://wiki.openrtu.run/flash`
+2. 从互联网获取设备兼容固件
+3. 网页上点击上传固件
+4. 连接设备（特殊情况下需要按住 BOOT 按钮再插 USB）
+5. 点击连接设备
+6. 点击烧录
+7. 完成后断开连接
