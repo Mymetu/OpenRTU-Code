@@ -1,10 +1,12 @@
 # OpenRTU-Code
 
-## 项目简介
+OpenRTU 项目固件与资源仓库。
 
-OpenRTU-Code 是 OpenRTU 项目下 **TinyLora 系列** 低功耗 LoRa 开发板的固件与配套资源仓库，覆盖多款基于 ESP32 的板卡，支持 MeshCore / Meshtastic 等固件的编译与刷机。
+## TinyLora 系列
 
-## 支持的板卡
+低功耗 LoRa 开发板系列，基于 ESP32，支持 MeshCore / Meshtastic 固件。
+
+### 支持的板卡
 
 | 板卡 | 主控 | LoRa 射频 | 说明 |
 |---|---|---|---|
@@ -14,17 +16,19 @@ OpenRTU-Code 是 OpenRTU 项目下 **TinyLora 系列** 低功耗 LoRa 开发板�
 | TinyLora C3 V4/V5 | ESP32-C3 | SX1262 / SX1268 / LLCC68（自动识别） | 支持 E220-400M30S、E22-400M30S、E22-400M33S、E220-900M30S、E22-900M30S、E22-900M33S，LED 心跳指示 |
 | TinyLora MV ZHCN | ESP32-C3 | SX1262 | GPS + 环境传感器（AHT20+BMP280） |
 
-## 固件支持
+### 固件形态
+
+每个板卡通常提供两种固件：
+
+- `repeater` — 中继节点
+- `companion_radio_ble` — 搭配手机客户端使用
+
+### 固件支持
 
 - **MeshCore**：轻量级多跳 LoRa 组网协议库（MIT License）
-- **Meshtastic**：TinyLora 部分型号可刷 Meshtastic 固件
+- **Meshtastic**：部分型号可刷 Meshtastic 固件
 
-每个板卡通常提供两种固件形态：
-
-- `repeater`：中继节点
-- `companion_radio_ble`：搭配手机客户端使用
-
-## 特性
+### 特性
 
 - LoRa 射频芯片运行时自动识别（SX1262 / SX1268 / LLCC68）
 - 默认频率 480.375MHz、SF9、125kHz 带宽
