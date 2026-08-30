@@ -4,7 +4,7 @@ TinyLora 系列 LoRa 组网设备固件与资源仓库。
 
 ## 项目简介
 
-OpenRTU-Code 是围绕 **TinyLora 系列** 低功耗 LoRa 自组网设备整理的固件与配套资源仓库，覆盖多款基于 ESP32 的板卡，支持 MeshCore / RenMesh / Meshtastic 等固件的编译与刷机。
+OpenRTU-Code 是围绕 **TinyLora 系列** 低功耗 LoRa 自组网设备整理的固件与配套资源仓库，覆盖多款基于 ESP32 的板卡，支持 MeshCore / Meshtastic 等固件的编译与刷机。
 
 ## 支持的板卡
 
@@ -15,14 +15,13 @@ OpenRTU-Code 是围绕 **TinyLora 系列** 低功耗 LoRa 自组网设备整理�
 | TinyLora C3 V3 GPS | ESP32-C3 | SX1262 / SX1268 / LLCC68（自动识别） | 带 GPS（Serial1） |
 | TinyLora C3 V4/V5 | ESP32-C3 | SX1262 / SX1268 / LLCC68（自动识别） | LED 心跳指示 |
 | TinyLora C5 V2 | ESP32-C5 | SX1262 | 8M Flash / 8M PSRAM |
-| TinyLora C6 RenMesh | ESP32-C6 | LoRa | WS2812 彩灯、蜂鸣器、外部看门狗、GPS |
+| TinyLora C6 | ESP32-C6 | LoRa | WS2812 彩灯、蜂鸣器、外部看门狗、GPS |
 | TinyLora MV ZHCN | ESP32-C3 | SX1262 | GPS + 环境传感器（AHT20+BMP280） |
 | TinyLora H2 V2 | ESP32-H2 | SX1262（RA-62） | 无 Wi-Fi，仅 BLE + 802.15.4 |
 
 ## 固件支持
 
 - **MeshCore**：轻量级多跳 LoRa 组网协议库（MIT License）
-- **RenMesh**：基于 MeshCore 的增强分支，包含 TinyLora 系列板卡适配
 - **Meshtastic**：TinyLora 部分型号可刷 Meshtastic 固件
 
 每个板卡通常提供两种固件形态：
@@ -71,7 +70,6 @@ OpenRTU-Code/
 ## 相关项目
 
 - [MeshCore](https://github.com/ripplebiz/MeshCore)
-- [RenMesh](https://github.com/ripplebiz/RenMesh)
 
 ## 许可证
 
