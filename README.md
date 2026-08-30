@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-OpenRTU-Code 是围绕 **TinyLora 系列** 低功耗 LoRa 自组网设备整理的固件与配套资源仓库，覆盖多款基于 ESP32 的板卡，支持 MeshCore / Meshtastic 等固件的编译与刷机。
+OpenRTU-Code 是 OpenRTU 项目下 **TinyLora 系列** 低功耗 LoRa 开发板的固件与配套资源仓库，覆盖多款基于 ESP32 的板卡，支持 MeshCore / Meshtastic 等固件的编译与刷机。
 
 ## 支持的板卡
 
