@@ -23,7 +23,7 @@ OpenRTU 项目固件与资源仓库。
 
 ## 固件烧录方法
 
-1. Chrome / Edge 浏览器打开 `https://wiki.openrtu.run/flash`
+1. Chrome / Edge 浏览器打开 [固件烧录工具](https://wiki.openrtu.run/flash)
 2. 从互联网获取设备兼容固件
 3. 网页上点击上传固件
 4. 连接设备（特殊情况下需要按住 BOOT 按钮再插 USB）
